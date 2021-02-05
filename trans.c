@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define n 4
+#define m 4
 
 void transpose(int A[n][m], int B[n][m]) 
 { 
