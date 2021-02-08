@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "trans.h"
 int main(){
 #ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
