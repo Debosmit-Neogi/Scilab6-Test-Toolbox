@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define n 4
 #define m 4
 
