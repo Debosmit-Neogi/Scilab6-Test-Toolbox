@@ -6,10 +6,17 @@ int main(){
 	freopen("input.txt", "r", stdin);
 	freopen("output1.txt", "w", stdout);
 #endif
-	 int A[n][m] = { {1, 1, 1, 1}, 
-                    {2, 2, 2, 2}, 
-                    {3, 3, 3, 3}, 
-                    {4, 4, 4, 4}}; 
+	 int A[n][m];
+	for(int i=0;i<n;i++){
+
+                for(int j=0;j<m;j++){
+
+                        scanf("%d",&A[i][j]);
+
+}
+}
+
+
   
     int B[n][m], i, j; 
   
