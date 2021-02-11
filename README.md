@@ -1,7 +1,16 @@
-This repository is a test toolbox for Scilab. It requires "thirdparty" directory which can be downloaded as "external-library.zip" file from the page: https://scilab.in/fossee-scilab-toolbox. The "thirdparty" directory contains compiled library for a simple "multiplication" function written in C. After copying the "thirdparty" directory to the toolbox directory, on the scilab console run "exec builder.sce" to build the toolbox and then run "exec loader.sce" to load the toolbox.  Type "help" in the scilab console and browse through the help content of "test_toolbox". The external-library.zip file also contains separate instructions to work with MinGW on Windows OS.
+This repository is a test tool box for Scilab mainly to run in Linux environment. The repository contains a folder named "test" that conatins following files:
 
-This toolbox overall demonstrates
-1. How to add a function defined in C in scilab
-2. How to add a function defined in Scilab in Scilab
-3. How to write help for the added functions
-4. How to create a toolbox out of the above functions.
+1. main.c : It contains the main function for transpose of a matrix of n x m dimensions.
+2. trans.c: It contains the source code for finding out the transpose of a matrix of the above mentioned dimensions.
+3. trans.h: It contains the header file of trans.c.
+4. main.sh: It is the shell script that contains all the steps to run the program in your linux environment. It has been made executable using the command: chmod +x <filename>
+
+Operating System (OS) used:  Ubuntu
+Version: 20.04.2
+
+Note: All the steps mentioned are also tested on Kali OS. Verison: 2020.4
+
+Build and Execute the program locally:
+
+The main.sh is shell script file that contains steps to run the programs. 
+Open the terminal in your linux environment (preferably Ubuntu) and type the following command  ./<file.sh>  to execute the program.
