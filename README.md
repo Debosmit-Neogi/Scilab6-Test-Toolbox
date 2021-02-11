@@ -14,6 +14,7 @@ Build and Execute the program locally:
 
 The main.sh is shell script file that contains steps to run the programs. 
 Open the terminal in your linux environment (preferably Ubuntu) and type the following command:
+
    a. sudo bash main.sh 
    
    b. Input the values of the array
